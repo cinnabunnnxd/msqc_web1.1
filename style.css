@@ -197,7 +197,7 @@ p{
     
 .course-col{
     flex-basis: 31%;
-    background: #FCDC2A;
+    background: #FFEBB2;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -332,15 +332,7 @@ h3{
     text-align: left;
 }
 
-footer {
-    background: #FCDC2A;
-    color: black;
-    text-align: center;
-    padding: 15px;
-    position: relative;
-    bottom: 0;
-    width: auto;
-}
+
 
 /*--admissions--*/
 
@@ -421,8 +413,8 @@ footer {
 }
 
 .yellow-btn { 
-    border: 1px solid #FCDC2A;
-    background: #FCDC2A;
+    border: 1px solid #FFEBB2;
+    background: #FFEBB2;
     color: black;
 }
 .yellow-btn:hover {
@@ -431,14 +423,76 @@ footer {
 
 /*--footer--*/
 
+
+
 .footer{
-    width:100;
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 15px;
+    position: relative;
     text-align: center;
-    padding: 30px 0;
+    width: auto;
+    bottom: 0;
+
+
+   
 }
 
-.footer h4{
-    margin-bottom: 25px;
+.footer p{
+    color: #8a8a8a;
+
+}
+
+.footer h3{
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+}
+
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
     margin-top: 20px;
-    font-weight: 600;
+}
+
+.app-logo img{
+    width: 140px;
+}
+
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 8px 0;
+}
+
+.copyright{
+    text-align: center;
 }
