@@ -6,7 +6,7 @@
 }
 
 .header{
-    min-height: 70vh;
+    min-height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(IMG/Rbgd.jpg);
     background-position: center;
@@ -495,4 +495,32 @@ ul{
 
 .copyright{
     text-align: center;
+}
+
+
+
+
+/*--MediaA--*/
+
+
+.w3-content{
+    background-position: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+}
+
+.w3-button, .w3-center {
+    border: none;
+    background-position: center;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
 }
